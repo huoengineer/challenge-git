@@ -11,6 +11,7 @@ tape('should respond hello', (t) => {
     if (err) t.error(err)
 
     t.equal(body.msg, 'hello')
+    t.equal(body.msg, 'first pull')
     t.end()
   })
 })
